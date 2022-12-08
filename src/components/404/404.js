@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <>
       <h1>PAGES NOT FOUND</h1>
-      <Link to="/">
+      <Link to="/React-NewsSearch">
         <Button>
           <HomeIcon color="primary" />
         </Button>
