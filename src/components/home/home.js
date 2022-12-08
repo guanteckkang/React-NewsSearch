@@ -18,7 +18,7 @@ export default function Home() {
   useEffect(() => {
     const isLogIn = JSON.parse(localStorage.getItem("isLogIn"));
     if (isLogIn === false) {
-      navigate("/");
+      navigate("/React-NewsSearch");
     }
   }, []);
 
